@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\BRUH\Documents\Lab5\Shapes\Shapes\main.cpp(8,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BRUH\Documents\Lab5\Shapes\Shapes\main.cpp(21,53): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\BRUH\Documents\Lab5\Shapes\Shapes\main.cpp(24,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\BRUH\Documents\Lab5\Shapes\Shapes\main.cpp(24,54): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\BRUH\Documents\Lab5\Shapes\Shapes\main.cpp(27,20): warning C4305: 'argument': truncation from 'double' to 'float'
+  Shapes.vcxproj -> C:\Users\BRUH\Documents\Lab5\Shapes\Debug\Shapes.exe

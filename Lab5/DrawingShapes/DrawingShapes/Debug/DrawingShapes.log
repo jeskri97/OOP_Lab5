@@ -1,0 +1,31 @@
+﻿  main.cpp
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(20,12): error C2259: 'Rectangle': cannot instantiate abstract class
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.h(21): message : see declaration of 'Rectangle'
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(20,12): message : due to following members:
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(20,12): message : 'void Shape::render(void)': is abstract
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.h(16): message : see declaration of 'Shape::render'
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(20,15): error C2259: 'Rectangle': cannot instantiate abstract class
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.h(21): message : see declaration of 'Rectangle'
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(20,15): message : due to following members:
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(20,15): message : 'void Shape::render(void)': is abstract
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.h(16): message : see declaration of 'Shape::render'
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(20,53): warning C4305: 'argument': truncation from 'double' to 'float'
+  point2D.cpp
+  shapes.cpp
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(54,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(54,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(54,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(54,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(55,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(55,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(55,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(55,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(56,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(56,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(56,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(56,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(57,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(57,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(57,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(57,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...

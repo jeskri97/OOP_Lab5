@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\bruh1\Documents\OOP\Lab5\Shapes\Shapes\main.cpp(21,53): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\bruh1\Documents\OOP\Lab5\Shapes\Shapes\main.cpp(24,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\bruh1\Documents\OOP\Lab5\Shapes\Shapes\main.cpp(24,54): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\bruh1\Documents\OOP\Lab5\Shapes\Shapes\main.cpp(27,20): warning C4305: 'argument': truncation from 'double' to 'float'
+  point2D.cpp
+  shapes.cpp
+  Generating Code...
+  Shapes.vcxproj -> C:\Users\bruh1\Documents\OOP\Lab5\Shapes\x64\Debug\Shapes.exe
