@@ -58,10 +58,10 @@ void Rectangle::render(SDL_Renderer* renderer) {
 	// Set draw color
 	SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);
 	// Draw shape
-	SDL_RenderDrawLine(renderer, pos.getx() + halfWidth, pos.getx() - halfHeight, pos.getx() - halfWidth, pos.getx() - halfHeight);
-	SDL_RenderDrawLine(renderer, pos.getx() - halfWidth, pos.getx() - halfHeight, pos.getx() - halfWidth, pos.getx() + halfHeight);
-	SDL_RenderDrawLine(renderer, pos.getx() - halfWidth, pos.getx() + halfHeight, pos.getx() + halfWidth, pos.getx() + halfHeight);
-	SDL_RenderDrawLine(renderer, pos.getx() + halfWidth, pos.getx() + halfHeight, pos.getx() + halfWidth, pos.getx() - halfHeight);
+	SDL_RenderDrawLine(renderer, pos.getx() + halfWidth, pos.gety() - halfHeight, pos.getx() - halfWidth, pos.gety() - halfHeight);
+	SDL_RenderDrawLine(renderer, pos.getx() - halfWidth, pos.gety() - halfHeight, pos.getx() - halfWidth, pos.gety() + halfHeight);
+	SDL_RenderDrawLine(renderer, pos.getx() - halfWidth, pos.gety() + halfHeight, pos.getx() + halfWidth, pos.gety() + halfHeight);
+	SDL_RenderDrawLine(renderer, pos.getx() + halfWidth, pos.gety() + halfHeight, pos.getx() + halfWidth, pos.gety() - halfHeight);
 }
 
 Triangle::Triangle(Point2D pos, int color[4], float base, float height)
@@ -80,9 +80,9 @@ void Triangle::render(SDL_Renderer* renderer) {
 	// Set draw color
 	SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);
 	// Draw shape
-	SDL_RenderDrawLine(renderer, pos.getx(), pos.getx() - halfHeight, pos.getx() - halfBase, pos.getx() + halfHeight);
-	SDL_RenderDrawLine(renderer, pos.getx() - halfBase, pos.getx() + halfHeight, pos.getx() + halfBase, pos.getx() + halfHeight);
-	SDL_RenderDrawLine(renderer, pos.getx() + halfBase, pos.getx() + halfHeight, pos.getx(), pos.getx() - halfHeight);
+	SDL_RenderDrawLine(renderer, pos.getx(), pos.gety() - halfHeight, pos.getx() - halfBase, pos.gety() + halfHeight);
+	SDL_RenderDrawLine(renderer, pos.getx() - halfBase, pos.gety() + halfHeight, pos.getx() + halfBase, pos.gety() + halfHeight);
+	SDL_RenderDrawLine(renderer, pos.getx() + halfBase, pos.gety() + halfHeight, pos.getx(), pos.gety() - halfHeight);
 }
 
 Circle::Circle(Point2D pos, int color[4], float radius)
@@ -93,21 +93,24 @@ void Circle::render(SDL_Renderer* renderer) {
 	Point2D pos = this->getPos();
 	std::string sPos = pos.toString();
 	int* color = this->getColor();
-	printf("\nTriangle\nPos:\t%s\nRadius:\t%g\n", sPos.c_str(), this->radius);
+	printf("\nCircle\nPos:\t%s\nRadius:\t%g\n", sPos.c_str(), this->radius);
 
 	// Set draw color
 	SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);
+	// Amount of points.
+	int points = 20;
+	// The step size.
+	float step = 360 / points;
+	// Degrees starting at 0.
+	float degree = 0.0f;
 	// Draw shape
-	int step = 20;
-	int degree = 0;
 	while (degree < 360) {
-		// i = degrees
-		float x1 = cos(degree * PI / 180) * this->radius * pos.getx();
-		float y1 = sin(degree * PI / 180) * this->radius * pos.gety();
+		float x1 = cos(degree * (PI / 180)) * this->radius + pos.getx();
+		float y1 = sin(degree * (PI / 180)) * this->radius + pos.gety();
 		degree += step;
-		float x2 = cos(degree * PI / 180) * this->radius * pos.getx();
-		float y2 = sin(degree * PI / 180) * this->radius * pos.gety();
-
+		float x2 = cos(degree * (PI / 180)) * this->radius + pos.getx();
+		float y2 = sin(degree * (PI / 180)) * this->radius + pos.gety();
+		//printf("\nx1: %g\ty1: %g\nx2: %g\ty2: %g\n", x1, y1, x2, y2);
 		SDL_RenderDrawLine(renderer, x1, y1, x2, y2);
 	}
 }
