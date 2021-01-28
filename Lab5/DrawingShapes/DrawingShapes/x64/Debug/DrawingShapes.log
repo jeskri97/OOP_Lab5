@@ -1,2 +1,52 @@
 ﻿  main.cpp
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(74,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(74,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(74,80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(84,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(84,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(84,104): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(84,83): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(94,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(94,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(94,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\main.cpp(94,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  shapes.cpp
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(78,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(78,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(78,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(78,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(79,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(79,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(79,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(79,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(80,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(80,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(80,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(80,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(81,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(81,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(81,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(81,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(107,102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(107,79): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(107,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(107,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(108,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(108,90): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(108,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(108,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(109,102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(109,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(109,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(109,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(131,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(136,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(137,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(139,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(140,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(142,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(142,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(142,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\DrawingShapes\shapes.cpp(142,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
   DrawingShapes.vcxproj -> C:\Users\bruh1\Documents\OOP\Lab5\DrawingShapes\x64\Debug\DrawingShapes.exe

@@ -16,8 +16,11 @@ private:
 	int color[4];
 public:
 	Shape(Point2D pos, int color[4]);
+	Shape();
 
 	virtual void render(SDL_Renderer* renderer) = 0;
+
+	void setPos(Point2D pos);
 
 	Point2D getPos();
 	int* getColor();
@@ -28,6 +31,7 @@ private:
 	float width, height, halfWidth, halfHeight;
 public:
 	Rectangle(Point2D pos, int color[4], float width, float height);
+	Rectangle();
 	void render(SDL_Renderer* renderer);
 };
 
@@ -36,6 +40,7 @@ private:
 	float base, height, halfBase, halfHeight;
 public:
 	Triangle(Point2D pos, int color[4], float base, float height);
+	Triangle();
 	void render(SDL_Renderer* renderer);
 };
 
@@ -44,5 +49,6 @@ private:
 	float radius;
 public:
 	Circle(Point2D pos, int color[4], float radius);
+	Circle();
 	void render(SDL_Renderer* renderer);
 };

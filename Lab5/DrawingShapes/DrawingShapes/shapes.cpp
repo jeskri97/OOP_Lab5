@@ -35,6 +35,16 @@ Shape::Shape(Point2D pos, int color[4]) {
 			this->color[i] = color[i];
 	}
 }
+Shape::Shape() {
+	this->pos = Point2D(0, 0);
+	this->color[0] = 0;
+	this->color[1] = 0;
+	this->color[2] = 0;
+	this->color[3] = 0;
+}
+void Shape::setPos(Point2D pos) {
+	this->pos = pos;
+}
 Point2D Shape::getPos() {
 	return this->pos;
 }
@@ -49,11 +59,18 @@ Rectangle::Rectangle(Point2D pos, int color[4], float width, float height)
 	this->halfWidth = width / 2;
 	this->halfHeight = height / 2;
 }
+Rectangle::Rectangle()
+	: Shape() {
+	this->width = 0;
+	this->height = 0;
+	this->halfWidth = 0;
+	this->halfHeight = 0;
+}
 void Rectangle::render(SDL_Renderer* renderer) {
 	Point2D pos = this->getPos();
-	std::string sPos = pos.toString();
+	//std::string sPos = pos.toString();
 	int* color = this->getColor();
-	printf("\nRectangle\nPos:\t%s\nWidth / Height:\t%g / %g\n", sPos.c_str(), this->width, this->height);
+	//printf("\nRectangle\nPos:\t%s\nWidth / Height:\t%g / %g\n", sPos.c_str(), this->width, this->height);
 
 	// Set draw color
 	SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);
@@ -71,11 +88,18 @@ Triangle::Triangle(Point2D pos, int color[4], float base, float height)
 	this->halfBase = base / 2;
 	this->halfHeight = height / 2;
 }
+Triangle::Triangle()
+	: Shape() {
+	this->base = 0;
+	this->height = 0;
+	this->halfBase = 0;
+	this->halfHeight = 0;
+}
 void Triangle::render(SDL_Renderer* renderer) {
 	Point2D pos = this->getPos();
-	std::string sPos = pos.toString();
+	//std::string sPos = pos.toString();
 	int* color = this->getColor();
-	printf("\nTriangle\nPos:\t%s\nBase / Height:\t%g / %g\n", sPos.c_str(), this->base, this->height);
+	//printf("\nTriangle\nPos:\t%s\nBase / Height:\t%g / %g\n", sPos.c_str(), this->base, this->height);
 
 	// Set draw color
 	SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);
@@ -89,11 +113,15 @@ Circle::Circle(Point2D pos, int color[4], float radius)
 	: Shape(pos, color) {
 	this->radius = radius;
 }
+Circle::Circle()
+	: Shape() {
+	this->radius = 0;
+}
 void Circle::render(SDL_Renderer* renderer) {
 	Point2D pos = this->getPos();
-	std::string sPos = pos.toString();
+	//std::string sPos = pos.toString();
 	int* color = this->getColor();
-	printf("\nCircle\nPos:\t%s\nRadius:\t%g\n", sPos.c_str(), this->radius);
+	//printf("\nCircle\nPos:\t%s\nRadius:\t%g\n", sPos.c_str(), this->radius);
 
 	// Set draw color
 	SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);
